@@ -1,39 +1,40 @@
-# StreetForge
+# STREETFORGE
 
-> **Technology, innovation and product engineering — from software to real-world systems.**
+![Cinematic hero](https://capsule-render.vercel.app/api?type=rect&color=0:070707,100:171717&height=230&text=STREETFORGE&fontColor=F3F3EE&fontSize=40&fontAlignY=38&desc=TECHNOLOGY%20%C3%97%20INNOVATION%20%C3%97%20ENGINEERING&descColor=999991&descSize=12&descAlignY=66&animation=twinkling)
 
-StreetForge is the evolving technology studio identity behind experiments spanning software, AI, IoT, embedded systems, electronics, hardware prototyping and digital products.
+> **TECHNOLOGY × INNOVATION × ENGINEERING.**
 
-## Vision
-Build useful things at the intersection of **software × intelligence × hardware × engineering**.
+## THE PREMISE
 
-## Repository
-This repository contains the current StreetForge web presence / frontend implementation.
+StreetForge is the brand surface for a technology and innovation studio spanning software, AI/ML, IoT, embedded systems, electronics, hardware prototyping and digital products.
 
-## Stack
+## THE EXPERIENCE
+
+**Software can meet hardware.**  
+**AI can become a tool, not a slogan.**  
+**Engineering should leave the screen and enter the real world.**
+
+## THE SYSTEM
+
+The repository contains the StreetForge web presence: a visual identity and product surface for a broad engineering capability rather than one software niche.
+
+## THE STACK
+
 React · TypeScript · Vite · Tailwind CSS
 
-## Local development
-~~~bash
+## RUN
+
+```bash
 npm install
 npm run dev
-~~~
+```
 
-Production build:
+## PROJECT STATE
 
-~~~bash
-npm run build
-npm run preview
-~~~
+**Brand / studio web experience**
 
-## Brand
-**StreetForge** is intended as a broad technology and innovation identity, not a software-only brand.
-
-## Author
-**K. Kishor Kumar**
-
-GitHub: [@Kishordiu](https://github.com/Kishordiu)
+Implemented behaviour is documented separately from future integrations so the project story stays honest as the product evolves.
 
 ---
 
-<p align="center"><strong>Forge ideas. Build systems. Ship innovation.</strong></p>
+<p align="center"><strong>K. KISHOR KUMAR</strong><br><sub>ENGINEERING / PRODUCT / SYSTEMS</sub></p>
