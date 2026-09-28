@@ -1,73 +1,39 @@
-# React + TypeScript + Vite
+# StreetForge
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> **Technology, innovation and product engineering — from software to real-world systems.**
 
-Currently, two official plugins are available:
+StreetForge is the evolving technology studio identity behind experiments spanning software, AI, IoT, embedded systems, electronics, hardware prototyping and digital products.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Vision
+Build useful things at the intersection of **software × intelligence × hardware × engineering**.
 
-## React Compiler
+## Repository
+This repository contains the current StreetForge web presence / frontend implementation.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Stack
+React · TypeScript · Vite · Tailwind CSS
 
-## Expanding the ESLint configuration
+## Local development
+~~~bash
+npm install
+npm run dev
+~~~
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Production build:
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+~~~bash
+npm run build
+npm run preview
+~~~
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## Brand
+**StreetForge** is intended as a broad technology and innovation identity, not a software-only brand.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## Author
+**K. Kishor Kumar**
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+GitHub: [@Kishordiu](https://github.com/Kishordiu)
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+<p align="center"><strong>Forge ideas. Build systems. Ship innovation.</strong></p>
