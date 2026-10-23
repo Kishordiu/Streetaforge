@@ -1,40 +1,55 @@
-# STREETFORGE
+<div align="center">
+  <img src="./assets/hero.png" width="100%" alt="StreetForge Spatial Engineering Studio Hero" />
+</div>
 
-![Cinematic hero](https://capsule-render.vercel.app/api?type=rect&color=0:070707,100:171717&height=230&text=STREETFORGE&fontColor=F3F3EE&fontSize=40&fontAlignY=38&desc=TECHNOLOGY%20%C3%97%20INNOVATION%20%C3%97%20ENGINEERING&descColor=999991&descSize=12&descAlignY=66&animation=twinkling)
+<p align="center">
+  <a href="https://diufoundry.online"><img alt="Studio" src="https://img.shields.io/badge/DIU_FOUNDRY-SPATIAL_LABS-171717?style=for-the-badge&logoColor=F3F3EE" /></a>&nbsp;
+  <img alt="Three.js" src="https://img.shields.io/badge/GRAPHICS-REACT_THREE_FIBER-171717?style=for-the-badge&logo=threedotjs&logoColor=F3F3EE" />&nbsp;
+  <img alt="Stack" src="https://img.shields.io/badge/SYSTEM-REACT_%2F_MUI_%2F_VITE-171717?style=for-the-badge&logo=react&logoColor=F3F3EE" />
+</p>
 
-> **TECHNOLOGY × INNOVATION × ENGINEERING.**
+# StreetForge
 
-## THE PREMISE
-
-StreetForge is the brand surface for a technology and innovation studio spanning software, AI/ML, IoT, embedded systems, electronics, hardware prototyping and digital products.
-
-## THE EXPERIENCE
-
-**Software can meet hardware.**  
-**AI can become a tool, not a slogan.**  
-**Engineering should leave the screen and enter the real world.**
-
-## THE SYSTEM
-
-The repository contains the StreetForge web presence: a visual identity and product surface for a broad engineering capability rather than one software niche.
-
-## THE STACK
-
-React · TypeScript · Vite · Tailwind CSS
-
-## RUN
-
-```bash
-npm install
-npm run dev
-```
-
-## PROJECT STATE
-
-**Brand / studio web experience**
-
-Implemented behaviour is documented separately from future integrations so the project story stays honest as the product evolves.
+**Spatial WebGL engineering surface and real-time 3D interactive showcase for advanced digital fabrication and architecture.**
 
 ---
 
-<p align="center"><strong>K. KISHOR KUMAR</strong><br><sub>ENGINEERING / PRODUCT / SYSTEMS</sub></p>
+### The Problem
+Conventional technology and design portfolios communicate complex spatial, architectural, and hardware-software systems through flat 2D cards and static screenshots. This flattens high-dimension engineering work into generic web pages, failing to reflect genuine craftsmanship in 3D computation and real-time graphics.
+
+### The Solution
+StreetForge constructs a direct WebGL spatial surface powered by `@react-three/fiber` and `@react-three/drei`. Visitors interact with dynamic shader-distorted physical geometries, particle fields, responsive lighting, and smooth-lerp physics cursors, bridging the gap between digital interface design and tactile industrial engineering.
+
+---
+
+### Spatial Architecture
+
+- **Real-Time WebGL Canvas (`HeroCanvas.tsx`):** Accelerated 3D viewport rendering distorted mathematical meshes (`MeshDistortMaterial`), celestial particle starfields, and dynamic planetary rings.
+- **Micro-Interaction Physics (`CustomCursor.tsx`):** Frame-rate decoupled mouse tracker with elastic spring interpolation and magnetic hover states.
+- **Architectural Design System:** Dark-monolith theme built on `@mui/material` and Emotion, paired with `@fontsource/roboto` and custom typographic hierarchy.
+- **Engineered Showcase Modules:** Dedicated modular components for technical services (`Services.tsx`), multi-stage development pipelines (`Process.tsx`), and engineering case studies (`Projects.tsx`).
+
+---
+
+### Quick Start
+
+```bash
+# Clone the repository
+git clone https://github.com/Kishordiu/Streetaforge.git
+cd Streetaforge
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build production bundle
+npm run build
+```
+
+---
+
+<p align="center">
+  <sub>Crafted with spatial precision by <a href="https://diufoundry.online">DIU FOUNDRY</a></sub>
+</p>
