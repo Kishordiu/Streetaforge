@@ -1,55 +1,66 @@
 <div align="center">
-  <img src="./assets/hero.png" width="100%" alt="StreetForge Spatial Engineering Studio Hero" />
+  <img src="./assets/hero.png" width="100%" alt="StreetForge — spatial WebGL engineering studio artwork" />
 </div>
-
-<p align="center">
-  <a href="https://diufoundry.online"><img alt="Studio" src="https://img.shields.io/badge/DIU_FOUNDRY-SPATIAL_LABS-171717?style=for-the-badge&logoColor=F3F3EE" /></a>&nbsp;
-  <img alt="Three.js" src="https://img.shields.io/badge/GRAPHICS-REACT_THREE_FIBER-171717?style=for-the-badge&logo=threedotjs&logoColor=F3F3EE" />&nbsp;
-  <img alt="Stack" src="https://img.shields.io/badge/SYSTEM-REACT_%2F_MUI_%2F_VITE-171717?style=for-the-badge&logo=react&logoColor=F3F3EE" />
-</p>
 
 # StreetForge
 
-**Spatial WebGL engineering surface and real-time 3D interactive showcase for advanced digital fabrication and architecture.**
+**A spatial web portfolio exploring how geometry, motion, and responsive interaction can make technical work feel tangible.**
 
----
+StreetForge is a React-based creative-technology experience built around a Three.js canvas. It uses interactive 3D forms, shader-driven material distortion, particle fields, lighting, and cursor movement to present product and engineering work with a stronger sense of depth than a conventional flat portfolio.
 
-### The Problem
-Conventional technology and design portfolios communicate complex spatial, architectural, and hardware-software systems through flat 2D cards and static screenshots. This flattens high-dimension engineering work into generic web pages, failing to reflect genuine craftsmanship in 3D computation and real-time graphics.
+## The experience architecture
 
-### The Solution
-StreetForge constructs a direct WebGL spatial surface powered by `@react-three/fiber` and `@react-three/drei`. Visitors interact with dynamic shader-distorted physical geometries, particle fields, responsive lighting, and smooth-lerp physics cursors, bridging the gap between digital interface design and tactile industrial engineering.
-
----
-
-### Spatial Architecture
-
-- **Real-Time WebGL Canvas (`HeroCanvas.tsx`):** Accelerated 3D viewport rendering distorted mathematical meshes (`MeshDistortMaterial`), celestial particle starfields, and dynamic planetary rings.
-- **Micro-Interaction Physics (`CustomCursor.tsx`):** Frame-rate decoupled mouse tracker with elastic spring interpolation and magnetic hover states.
-- **Architectural Design System:** Dark-monolith theme built on `@mui/material` and Emotion, paired with `@fontsource/roboto` and custom typographic hierarchy.
-- **Engineered Showcase Modules:** Dedicated modular components for technical services (`Services.tsx`), multi-stage development pipelines (`Process.tsx`), and engineering case studies (`Projects.tsx`).
-
----
-
-### Quick Start
-
-```bash
-# Clone the repository
-git clone https://github.com/Kishordiu/Streetaforge.git
-cd Streetaforge
-
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-
-# Build production bundle
-npm run build
+```text
+Pointer / scroll interaction
+          │
+          ▼
+Motion and cursor response
+          │
+          ▼
+React Three Fiber scene
+          │
+          ├──► Geometry + material distortion
+          ├──► Lighting + particles
+          └──► Spatial composition
+                    │
+                    ▼
+          Services / process / project stories
 ```
 
+## What is implemented
+
+- **WebGL hero canvas:** A Three.js scene composed through `@react-three/fiber` and `@react-three/drei`.
+- **Material-led visuals:** Distorted geometry, particle atmosphere, lighting, and rings provide the spatial visual language.
+- **Responsive motion:** Framer Motion and a custom cursor pattern shape the feeling of movement and hover feedback.
+- **Studio modules:** Service, process, and project components organise the broader product story.
+
+## Stack
+
+React · TypeScript · Vite · Three.js · React Three Fiber · React Three Drei · Material UI · Emotion · Framer Motion
+
+## Run locally
+
+**Requirements:** Node.js and npm.
+
+```bash
+git clone https://github.com/Kishordiu/Streetaforge.git
+cd Streetaforge
+npm ci
+npm run dev
+```
+
+Build and check the production bundle:
+
+```bash
+npm run lint
+npm run build
+npm run preview
+```
+
+## Scope
+
+StreetForge is a **creative web and portfolio experience**, not a CAD system, fabrication simulator, or engineering validation tool. The 3D scene communicates an aesthetic and interaction approach; it should not be interpreted as a physical manufacturing model or an engineering result.
+
 ---
 
-<p align="center">
-  <sub>Crafted with spatial precision by <a href="https://diufoundry.online">DIU FOUNDRY</a></sub>
-</p>
+<p align="center"><sub>DIU FOUNDRY · SPATIAL WEB / VISUAL ENGINEERING</sub></p>
